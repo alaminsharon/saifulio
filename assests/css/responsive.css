@@ -1,0 +1,160 @@
+@media (max-width: 1579px) {
+    .testimonial-section .testimonial-slider-wrapper {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px 15px;
+    }
+    .testimonial-section .slick-slide {
+        opacity: 1;
+    }
+}
+@media (max-width: 1200px) {
+    .header-section .header-btn a {
+        padding: 15px 13px;
+        font-size: 14px;
+    }
+    .footer-section .footer-widget.ml-60,
+    .footer-section .footer-widget.ml-30 {
+        margin-left: 0;
+    }
+}
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 800px;
+    }
+    .header-section .topbar-left .topbar-item:last-child {
+        margin-left: 8px;
+    }
+    .header-section .topbar-left .topbar-item a span {
+        display: none;
+    }
+    .hero-section .hero-img {
+        display: none;
+    }
+    .header-section .desktop-menu {
+        display: none;
+    }
+    .header-section .header-btn .mobile-menu-toggle {
+        display: inline-block;
+    }
+    .header-section .logo-wrapper a {
+        position: initial;
+        max-width: 180px;
+        display: inline-block;
+    }
+    .about-section .about-right {
+        margin-top: 50px;
+    }
+    .about-section .about-left img {
+        max-width: 100%;
+        width: auto;
+    }
+    .team-section .team-btn {
+        text-align: left;
+        margin-top: 25px;
+    }
+    .blog-section .blog-top-content .primary-btn {
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+}
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 680px;
+    }
+    .pricing-section .pricing-column {
+        max-width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonial-section .ts-single {
+        display: inline-block !important;
+        text-align: center;
+    }
+    .testimonial-section .ts-single .ts-left img {
+        display: inline-block;
+    }
+    .testimonial-section .ts-right {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .header-section .top-bar {
+        padding: 8px 10px;
+    }
+    .header-section .lang-switcher {
+        display: none;
+    }
+    .header-section .header-btn a {
+        display: none;
+    }
+    .about-section .md-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-section .md-wrapper .md-content {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .about-section .md-wrapper .md-content h5 {
+        font-size: 22px;
+    }
+    .customer-section .customer-column {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team-section .team-title {
+        text-align: center;
+    }
+    .team-section .team-btn {
+        text-align: center;
+    }
+    .team-section .team-column {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonial-section .slick-list {
+        margin: 0px -10px;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .testimonial-section .slick-slide {
+        margin: 0px 10px;
+    }
+    .blog-section .blog-top-content {
+        text-align: center;
+    }
+    .blog-section .blog-top-content .primary-btn {
+        text-align: center;
+    }
+    .blog-section .blog-articles article {
+        max-width: 400;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 480px) {
+    .hero-section .hero-left .subtitle span {
+        padding-left: 0;
+    }
+    .hero-section .hero-left .subtitle span::before {
+        bottom: -6px;
+    }
+    .hero-section .hero-left .hero-btns {
+        flex-direction: column;
+    }
+    .hero-section .hero-left .primary-btn a {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
